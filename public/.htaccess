@@ -1,0 +1,6 @@
+Options -Multiviews
+
+RewriteEngine On
+RewriteCond %{ReQUEST_FILENAME} !-d
+RewriteCond %{ReQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?url=$1 [L]
