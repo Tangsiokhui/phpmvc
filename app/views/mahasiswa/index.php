@@ -34,7 +34,7 @@
       <div class="modal-body">
         
 
-      	<form action="<?= BASEURL; ?>/mahasiswa/tambah" method="post">
+      	<form action="<?= BASEURL; ?>/mahasiswa/Add" method="post">
       	<div class="form-group">
 		    <label for="name">Name</label>
 		    <input type="text" class="form-control" id="name" name="name"> 
@@ -66,6 +66,7 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         <button type="submit" class="btn btn-primary">Add Data</button>
+   		 </form>
       </div>
     </div>
   </div>
